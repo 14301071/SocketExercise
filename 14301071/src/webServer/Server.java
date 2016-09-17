@@ -26,7 +26,7 @@ public class Server extends Thread{
 			
 			while(true){
 				String request = in.readLine();
-				System.out.println("¿Í»§¶Ë"+Thread.currentThread().getName()+"ÊäÈë£º"+request);
+				System.out.println("å®¢æˆ·ç«¯"+Thread.currentThread().getName()+"è¾“å…¥"+request);
 				if(request.equals("exit")){
 					System.out.println(Thread.currentThread().getName()+" is unconnected!");
 					break;
